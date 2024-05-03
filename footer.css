@@ -1,0 +1,96 @@
+.footer {
+  /* margin-right: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:  #E6ECF0;
+  color: #000000;
+  padding: 20px;
+}
+
+.left-half,
+.right-half {
+  flex: 1;
+}
+
+.left-half {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10vh;
+}
+.subscribe img{
+  height: 2rem;
+  width: 10rem;
+}
+.subscribe h3 {
+  margin-bottom: 10px;
+}
+
+.subscribe input[type="email"] {
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color:#3E83EB;
+  color: #333;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+
+/* .social-links img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+} */
+
+/* .right-half {
+  margin-top: 3vh;
+
+  /* display: flex;
+  justify-content:flex-start;
+  text-align: left; 
+} */
+.right-half-foot img{
+  margin-right: 19vh;
+  padding-right: 3vh;
+  height:33vh;
+  width: 53vh;
+}
+/* .col ,
+.col2{
+  flex: 1;
+}
+
+.col ,
+.col2{
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  margin-bottom: 10px;
+}
+.col2 h4 {
+  margin-bottom: 10px;
+}
+
+.col2 a {
+  color: #131212;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+/* Show ul when hover on li */
+/* .col a:hover + ul {
+  display: block;
+}
+.col2 a:hover + ul {
+  display: block;
+} */ 

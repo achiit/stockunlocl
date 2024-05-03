@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #E6ECF0;
+  padding: 20px;
+}
+
+.component {
+  max-width:fit-content;
+  height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
+}

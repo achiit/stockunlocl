@@ -1,0 +1,93 @@
+body{
+  background-color: #E6ECF0;
+
+}
+.container {
+  display: flex;
+  margin-top: 40vh;
+  padding-top: 40vh;
+  height: 80vh;
+  width: 100%;
+}
+
+.left-half,
+.right-half {
+  width: 50%;
+}
+
+.df {
+  margin-left: 10px;
+}
+
+.left-half {
+  background-color: #E6ECEF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1 {
+  font-size: 3.8vh;
+}
+
+.text p,
+.description p {
+  font-size: 16px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="email"] {
+  width: calc(70% - 40px);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+button span {
+  margin-left: 5px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.right-half {
+  background-color: #E6ECEF;
+  width: 60%;
+}
+
+.right-half img {
+  width: 140vh;
+  height: 110vh;
+  height: auto;
+  display: block;
+  border-radius: #E6ECEF 20vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left-half,
+  .right-half {
+    width: 100%;
+  }
+}
